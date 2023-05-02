@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/stylesheet.css">
+    <title>Mini Games</title>
+</head>
+<body>
+    <div class="background">
+      <!-- <a href="#" class="back">&lt</a> -->
+  <!-- navbar -->
+<div class="container">
+ 
+    <nav class="navbar navbar-light bg-transparent">
+     <div class="navbar-brand" href="#">
+      <a href="/" class="navbar-brand back">&lt</a> 
+     <div class="navbar-brand" href="#"> 
+      <img src="/image/logo.png" height="72px" width=72px" bg-transparent>
+        ROCK PAPER SCISSORS
+     </div>
+  </nav>
+  <div class="container">
+    <div class="container">
+    
+      <div class="row">
+        <div class="col-sm player">
+          <h1>PLAYER 1</h1>
+          <div id="player-rock" class="option" onclick="Rock()"><img src="/image/batu.png" height="92px" width="128px" class="rock-img" alt="batu" /></div>
+          <div id="player-paper" class="option" onclick="Paper()"><img src="/image/kertas.png" height="92px" width="128px"alt="kertas" class="paper-img" /></div>
+          <div id="player-scissor" class="option" onclick="Scissor()"><img src="/image/gunting.png" height="92px" width="128px"alt="gunting" class="scissor-img" /></div>
+        </div>
+        <div class="col-sm versus">
+          <div class="replace">
+          <div>VS</div>
+        </div>
+        <div class="result">
+          <a href="./Challenge.html">
+          <img onclick="resetGame()"><img src="/image/refresh.png"  class="reset" width="77px "height=71px"></img>
+          </a>
+        </div>
+        </div>
+          
+          <div class="col-sm bot">
+            <h2>COM</h2>
+            <div id="com-rock" class="option"><img src="/image/batu.png" height="92px" width="128px" alt="batu" class="rock-img" /></div>
+            <div id="com-paper" class="option"><img src="/image/kertas.png" height="92px" width="128px" alt="kertas" class="paper-img" /></div>
+            <div id="com-scissor" class="option"><img src="/image/gunting.png" height="92px" width="128px" alt="gunting" class="scissor-img" /></div>
+          </div>
+         </div>
+            
+        </div>
+       
+      </div>
+      
+    </div>
+
+  </div>
+  
+  </div>
+  <script src="/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>

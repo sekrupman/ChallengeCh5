@@ -1,0 +1,20 @@
+{
+  "name": "challengech5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "ignatius",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "chunk": "0.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "nodemon": "^2.0.22",
+    "query-string": "^8.1.0"
+  }
+}

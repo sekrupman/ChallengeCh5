@@ -1,0 +1,72 @@
+.background{
+    background-color:#9C835F;
+    ;
+    background-size:cover;
+    min-height:100vh;
+    background-position: center center;
+    }
+    .back{
+        color: #724C21;
+        font-size: 72px;
+        font-weight: 1000;
+    }
+.navbar-light .navbar-brand{
+    color:#F9B23D;
+    font-weight: bold;
+    font-family: "open-sans";
+    font-size: 36px;
+    }
+.player, .bot{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 49px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+}
+.option {
+        width: 128px;
+        height: 92px;
+        margin: 80px;
+        cursor: pointer;
+        
+}
+.player-option{
+        padding: 50px;
+        font-weight: bold;
+        font-size: larger;
+        text-align:center;
+    }
+.rock, .scissor, .paper{
+        padding:50px;
+        padding-left: 0;
+        background-color: transparent;
+        border:none;
+        }
+.versus{
+        padding-top: 280px;
+        color:#BD0000;
+        font-size: 144px;
+        text-align: center;
+        align-items: center;
+    }
+.result{
+    text-align: center center;
+    width: 271px;
+    height: 105px;
+    align-items: center;
+    font-size: 38px;
+    transform: rotate(-28.8deg);
+    color: #fff;
+
+}
+
+.reset{
+        cursor: pointer;
+        border: none;
+        text-align: center;
+        align-items: center;
+        margin-top: 100px;
+}
